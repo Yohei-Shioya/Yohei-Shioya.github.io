@@ -1,0 +1,112 @@
+/* Header */
+header{
+    background-color:black ;
+    color:#F7FFF7;
+    padding:20px 50px;
+    margin:0px;
+    height:10%
+}
+h1{
+    font-size: 50px;
+    padding-top:10px;
+}   
+
+/* Navigation Bar */
+.nav ul li{
+    float: left;
+}
+.nav ul li{
+    float: left;
+    width: 120px;
+    height: 50px;
+}
+.nav ul{
+    list-style-type: none;
+    margin:0px;
+}
+.nav{
+    background-color: darkred;
+    height: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10%;
+}
+.nav :hover{
+    background: rgba(207, 107, 107, 0.952);
+}
+/* Wrap01 */
+.content01{
+    margin:0px;
+    background-color: lightgray;
+}
+.box {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    background-color:lightblue;
+}
+h2{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.box p{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.wrap01{
+    display: flex;
+    margin:50px 100px 0px 100px;
+
+}
+.pic{
+    width:100%;
+    display: block;
+    border:solid 4px white;
+}
+button{
+    background-color: black;
+    color:white;
+    float: right;
+}
+
+h3{
+    color:white;
+    font-size: 30px;
+    margin:0px;
+    padding-top:20px;
+    padding-left: 100px;
+}
+/* Wrap02 */
+.content02{
+    margin:0px;
+    background-color: darkred;
+}
+.wrap02{
+    display: flex;
+    margin:50px 100px 0px 100px;
+}
+.box02 {
+    float: left;
+    width: 25%;
+    padding: 50px;
+    color:white;
+    background-color:darkblue;
+    margin-bottom: 50px;
+}
+
+.box02:not(:first-child){
+    border-left-style: solid;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color:white;
+}
+.footer p{
+    margin:0px;
+    padding:10px;
+}
